@@ -40,6 +40,9 @@ public class App {
                 case "mile":
                     targetNum = (float) (sourceNum * 0.62);
                     break;
+                default:
+                    System.out.println("I don't know that, please give me something else"); 
+                    break; 
             }
             break;    
             case "kg":
@@ -47,6 +50,9 @@ public class App {
                 case "lb":
                     targetNum = (float)(sourceNum * 2.20);
                     break;
+                default:
+                    System.out.println("I don't know that, please give me something else"); 
+                    break; 
             }
             break;
             case "liter":
@@ -54,6 +60,9 @@ public class App {
                 case "gallon":
                     targetNum = (float)(sourceNum * 0.26);
                     break;
+                default:
+                    System.out.println("I don't know that, please give me something else"); 
+                    break; 
             }
             break;
             case "celsius":
@@ -61,6 +70,9 @@ public class App {
                 case "fahrenheit":
                     targetNum = (float)(sourceNum * 1.8 + 32);
                     break;
+                default:
+                    System.out.println("I don't know that, please give me something else"); 
+                    break; 
             }
             break;
             default:
